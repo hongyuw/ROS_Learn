@@ -1,8 +1,8 @@
 // This program publishes randomly generated velocity messages for turtlesim.
 
 #include<ros/ros.h>
-#include<geometry_msgs/Twist.h>
-#include<std_msgs/Empty.h>   //For geometry_msgs::Twist
+#include<geometry_msgs/Twist.h>  //For geometry_msgs::Twist
+#include<std_msgs/Empty.h>       //important!!
 #include<stdlib.h> //For rand() and RAND_MAX
 
 int main(int argc, char **argv)
@@ -28,7 +28,7 @@ srand(time(0));
 
 //Loop at 2Hz until the node is shut down
 ros::Rate rate(2);
-rate.sleep();
+rate.sleep();        //if not sleep pub1 doesn't work
 pub1.publish(msg1);
 
 while(ros::ok())
