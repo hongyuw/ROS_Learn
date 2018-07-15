@@ -1,0 +1,38 @@
+This link below is the official tutorial. Please go through beginner level section.
+http://wiki.ros.org/ROS/Tutorials/
+Brief summary of the official turtorial
+1 how to create a catkin workspace
+2 what makes up a catkin package
+my_package/
+  CMakeLists.txt
+  package.xml
+3 package and workspace
+workspace_folder/        -- WORKSPACE
+  src/                   -- SOURCE SPACE
+    CMakeLists.txt       -- 'Toplevel' CMake file, provided by catkin
+    package_1/
+      CMakeLists.txt     -- CMakeLists.txt file for package_1
+      package.xml        -- Package manifest for package_1
+    ...
+    package_n/
+      CMakeLists.txt     -- CMakeLists.txt file for package_n
+      package.xml        -- Package manifest for package_n
+4 package dependency
+5 Nodes: A node is an executable that uses ROS to communicate with other nodes.
+  rosrun [package] [node]
+6 Messages: ROS data type used when subscribing or publishing to a topic.
+  rosmsg show [message]
+7 Topics: Nodes can publish messages to a topic as well as subscribe to a topic to receive messages.
+  rostopic echo [topic]
+  rostopic list
+  rostopic type [topic]
+  rostopic pub [topic] [msg_type] [args]
+8 using rqt_graph to identify topics, messages, etc
+9 Services: Services are another way that nodes can communicate with each other. Services allow nodes to send a request and receive a response.
+  rosservice list
+  rosservice type [service]
+  rosservice call [service] [args]
+10 
+A Gentle Introduction to ROS is a good book for beginners, which is free online. 
+https://cse.sc.edu/~jokane/agitr/
+Please go through Chapter 1,2,3,6,8 which consists important concepts and useful examples.
