@@ -8,7 +8,12 @@ Create a boot USB stick. go to pendrivelinux.com and download the boot usb creat
 https://www.youtube.com/watch?v=CFeri7UiYNs
 
 step 3
-follow the video guide
+follow the video guide and setup ubuntu 14.04
 https://www.youtube.com/watch?v=i_4Kh5kE3xA&t=1030s
 
 step 4
+follow this link to install ros-indigo on ubuntu
+http://wiki.ros.org/indigo/Installation/Ubuntu
+//Failed to contact master at [localhost:11311] problem may caused by the computor name inconsist with the host name
+//use "sudo gedit /etc/hosts" command and check the names
+use "roscore" and then "rosrun turtlesim turtlesim_node" to check if your setup is correct. you should be able to see a turtle on the screen.
