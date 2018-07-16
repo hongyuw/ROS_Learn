@@ -1,6 +1,11 @@
 This link below is the official tutorial. Please go through beginner level section.
 http://wiki.ros.org/ROS/Tutorials/
-Brief summary of the official turtorial
+
+A Gentle Introduction to ROS is a good book for beginners, which is free online. 
+https://cse.sc.edu/~jokane/agitr/
+Please go through Chapter 1,2,3,6,8 which consists important concepts and useful examples.
+
+Brief summary of the key concepts
 1 How to create a catkin workspace
 2 What makes up a catkin package
 my_package/
@@ -36,6 +41,4 @@ workspace_folder/        -- WORKSPACE
   rosparam set [param_name] [param_value]
 10 Using ROS launch
   roslaunch [package] [filename.launch]
-A Gentle Introduction to ROS is a good book for beginners, which is free online. 
-https://cse.sc.edu/~jokane/agitr/
-Please go through Chapter 1,2,3,6,8 which consists important concepts and useful examples.
+
