@@ -47,3 +47,4 @@ workspace_folder/        -- WORKSPACE
 12 Subscriber
   subscriber can receive message from a topic, how to write a subscriber is important
   write the source code in package/src --> modify the CMakelist.txt of the package, make the excecutable file --> catkin_make --> rosrun
+  http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29 This link shows how to create a publisher and a subscriber
