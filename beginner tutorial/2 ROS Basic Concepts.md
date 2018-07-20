@@ -1,10 +1,8 @@
 ## This document shows how to build up basic concepts as a beginner
 
-### This link below is the official tutorial. Please go through beginner level section.
-http://wiki.ros.org/ROS/Tutorials/
+### This is the link to the [official tutorial](http://wiki.ros.org/ROS/Tutorials/) . Please go through beginner level section.
 
-### *A Gentle Introduction to ROS* is a good book for beginners, which is free online. 
-https://cse.sc.edu/~jokane/agitr/ 
+### [*A Gentle Introduction to ROS*](https://cse.sc.edu/~jokane/agitr/ ) is a good book for beginners, which is free online. 
 Please go through Chapter 1,2,3,6,8 which consists important concepts and useful examples.
 
 ### Brief summary of the key concepts
