@@ -34,10 +34,13 @@ Please go through Chapter 1,2,3,6,8 which consists important concepts and useful
 6. **Messages**: ROS data type used when subscribing or publishing to a topic.
   rosmsg show [message]
 7. **Topics**: Nodes can publish messages to a topic as well as subscribe to a topic to receive messages.
-  rostopic echo [topic]
-  rostopic list
-  rostopic type [topic]
-  rostopic pub [topic] [msg_type] [args]
+  > rostopic echo [topic]
+  
+  > rostopic list
+  
+  > rostopic type [topic]
+  
+  > rostopic pub [topic] [msg_type] [args]
 8. Using **rqt_graph** to identify topics, messages, etc
 9. **Services**: Services are another way that nodes can communicate with each other. Services allow nodes to send a request and receive a response.
   rosservice list
