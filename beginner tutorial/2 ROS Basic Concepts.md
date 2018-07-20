@@ -47,10 +47,10 @@ Please go through Chapter 1,2,3,6,8 which consists important concepts and useful
   rosparam set [param_name] [param_value]
 10. Using **ROS launch**
   roslaunch [package] [filename.launch]
-11. **Publisher**
+11. **Publisher**:
   publisher can publish message to a topic, how to write a publisher is important
   write the source code in package/src --> modify the CMakelist.txt of the package, make the excecutable file --> catkin_make --> rosrun
-12. **Subscriber**
+12. **Subscriber**:
   subscriber can receive message from a topic, how to write a subscriber is important
   write the source code in package/src --> modify the CMakelist.txt of the package, make the excecutable file --> catkin_make --> rosrun
-  http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29 This link shows how to create a publisher and a subscriber
+  This [link](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29) shows how to create a publisher and a subscriber
