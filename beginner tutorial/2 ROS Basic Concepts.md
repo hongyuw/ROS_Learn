@@ -9,31 +9,24 @@ Please go through Chapter 1,2,3,6,8 which consists important concepts and useful
 1. How to create a **catkin workspace**
 2. What makes up a catkin **package**
 ***
-my_package/
 
-  CMakeLists.txt
-  
-  package.xml
+    my_package/
+      CMakeLists.txt
+      package.xml
 ***
 3. Package and workspace
 ***
-workspace_folder/        -- WORKSPACE
 
-  src/                   -- SOURCE SPACE
-  
-    CMakeLists.txt       -- 'Toplevel' CMake file, provided by catkin
-    
-    package_1/
-    
-      CMakeLists.txt     -- CMakeLists.txt file for package_1
-      
-      package.xml        -- Package manifest for package_1
-      
-    ...
-    
-    package_n/
-      CMakeLists.txt     -- CMakeLists.txt file for package_n
-      package.xml        -- Package manifest for package_n
+    workspace_folder/        -- WORKSPACE
+      src/                   -- SOURCE SPACE
+        CMakeLists.txt       -- 'Toplevel' CMake file, provided by catkin
+        package_1/
+          CMakeLists.txt     -- CMakeLists.txt file for package_1
+          package.xml        -- Package manifest for package_1
+          ...
+        package_n/
+          CMakeLists.txt     -- CMakeLists.txt file for package_n
+          package.xml        -- Package manifest for package_n
 ***
 4. Package dependency
 5. **Nodes**: A node is an executable that uses ROS to communicate with other nodes.
