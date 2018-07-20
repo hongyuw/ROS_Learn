@@ -1,18 +1,18 @@
-##How to install Ubuntu 14.04.5 on your computor and install ros indigo
-###step 1
+## How to install Ubuntu 14.04.5 on your computor and install ros indigo
+### step 1
 Go to ubuntu official website and download 64 bit ubuntu desktop iso file.
 
-###step 2
+### step 2
 Create a boot USB stick. go to pendrivelinux.com and download the boot usb creater. Follow the tutorial 
 "How to Create a Bootable Ubuntu 13.10 USB Flash Drive"  select FAT32
 https://www.youtube.com/watch?v=CFeri7UiYNs
 
-###step 3
-follow the video guide and setup ubuntu 14.04
+### step 3
+Follow the video guide and setup ubuntu 14.04
 https://www.youtube.com/watch?v=i_4Kh5kE3xA&t=1030s
 
-###step 4
-follow this link to install ros-indigo on ubuntu
+### step 4
+Follow this link to install ros-indigo on ubuntu
 http://wiki.ros.org/indigo/Installation/Ubuntu
 //Failed to contact master at [localhost:11311] problem may caused by the computor name inconsist with the host name
 //use "sudo gedit /etc/hosts" command and check the names
