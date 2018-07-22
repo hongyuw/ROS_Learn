@@ -1,4 +1,5 @@
-#### Run "source devel/setup.bash" automatically
+#### Run "source devel/setup.bash" automatically<br>
+Sometimes it is annoying to source "setup.bash" at every new shell, here is how can this be automatically.
 1. Open your terminal
 2. Write the command 'gedit ~/.bashrc' a file will open on gedit
 3. Go to the bottom (my last line was "source /opt/ros/indigo/setup.bash" , for others it may differ)
