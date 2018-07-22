@@ -8,7 +8,7 @@ Sometimes it is annoying to source "setup.bash" at every new shell, here is how 
 6. Now with every new shell you open, it will source automatically <br/>
 
 Example:<br>
-Add 'source ~/catkin_ws/devel/setup.bash<br>'
+Add 'source ~/catkin_ws/devel/setup.bash'<br>
 Workspace catkin_ws is no longer need to be sourced
 
 #### Change node name
@@ -19,6 +19,6 @@ rosrun package-name executable-name __name:=node-name
 can find the launchfile.
 2. You do not need to run catkin_make after you create a luanchfile, while you have to run catkin_make after you create a .cpp file or .py
 file.
-3. <node pkg="package name" name="node name" type="executable file name"/><br>   
+3. node pkg="package name" name="node name" type="executable file name" <br>   
 For the executable file name, do not include the path, just the name. (src/name [ ]  name [x])
-4. <remap from="current topic" to="expected topic">
+4. remap from="current topic" to="expected topic"
