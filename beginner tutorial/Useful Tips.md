@@ -19,6 +19,5 @@ rosrun package-name executable-name __name:=node-name
 can find the launchfile.
 2. You do not need to run catkin_make after you create a luanchfile, while you have to run catkin_make after you create a .cpp file or .py
 file.
-3. node pkg="package name" name="node name" type="executable file name" <br>   
-For the executable file name, do not include the path, just the name. (src/name [ ]  name [x])
+3. node pkg="package name" name="node name" type="executable file name"   For the executable file name, do not include the path, just the name. (src/name [ ]  name [x])
 4. remap from="current topic" to="expected topic"
