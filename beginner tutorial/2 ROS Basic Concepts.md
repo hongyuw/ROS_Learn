@@ -50,9 +50,9 @@ Please go through Chapter 1,2,3,6,8 which consists important concepts and useful
 11. **Publisher**: Publisher can publish message to a topic, how to write a publisher is important.
 12. **Subscriber**: Subscriber can receive message from a topic, how to write a subscriber is important <br>
   Steps of how to create a publisher/subscriber    <br>
-   1 write the source code in package/src   <br>
-   2 modify the CMakelist.txt of the package<br>
-   3 make the excecutable file<br>
-   4 catkin_make<br>
-   5 rosrun<br>
+    >1 write the source code in package/src   <br>
+    >2 modify the CMakelist.txt of the package<br>
+    >3 make the excecutable file<br>
+    >4 catkin_make<br>
+    >5 rosrun<br>
   This [link](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29) shows how to create a publisher and a subscriber
