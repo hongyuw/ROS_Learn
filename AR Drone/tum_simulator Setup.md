@@ -69,13 +69,15 @@ source devel/setup.bash       #source
 roslaunch tum_ardrone tum_ardrone.launch      #launch the controller
 ```
 3. keyboard control  <br>
-Enable keyboard control in the GUI, first "take off" the quadcopter and control it with the following commands <br>
+``` bash 
+Enable keyboard control in the GUI, first "take off" the quadcopter and control it with the following commands 
 • q,a: fly up & down.
 • i,j,k,l: fly horizontally.
 • u,o: rotate yaw.
 • F1: toggle emergency
 • s: takeoff
 • d: land
+```
 
 4. test camera and sensors
 ``` bash
