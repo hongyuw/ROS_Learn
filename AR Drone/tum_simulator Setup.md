@@ -77,7 +77,7 @@ Enable keyboard control in the GUI, first "take off" the quadcopter and control 
 • s: takeoff
 • d: land
 
-4、test camera and sensors
+4. test camera and sensors
 ``` bash
 # The front camera
 rosrun image_view image_view image:=/ardrone/front/image_raw
