@@ -54,3 +54,37 @@ catkin_make
 ```
 #### Notice
 tum_ardrone and tum_autonomy should be installed in the **same** catkin workspace
+
+### Test your simulator
+1. tum_simulator
+``` bash
+cd  ~/tum_simulator_ws       #switch workspace
+source devel/setup.bash       #source
+roslaunch cvg_sim_gazebo ardrone_testworld.launch       #open gazebo testworld
+```
+2. tum_ardrone
+``` bash
+cd  ~/tum_ardrone_ws       #switch workspace
+source devel/setup.bash       #source
+roslaunch tum_ardrone tum_ardrone.launch      #launch the controller
+```
+3. keyboard control  <br>
+Enable keyboard control in the GUI, first "take off" the quadcopter and control it with the following commands <br>
+• q,a: fly up & down.
+• i,j,k,l: fly horizontally.
+• u,o: rotate yaw.
+• F1: toggle emergency
+• s: takeoff
+• d: land
+
+4、test camera and sensors
+``` bash
+# The front camera
+rosrun image_view image_view image:=/ardrone/front/image_raw
+# The buttom camera
+rosrun image_view image_view image:=/ardrone/bottom/image_raw
+# The height sensor
+rostopic echo /sonar_height
+#The navigation info
+rostopic echo /ardrone/navdata
+```
