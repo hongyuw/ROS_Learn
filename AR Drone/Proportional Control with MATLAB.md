@@ -26,4 +26,4 @@ sudo gedit /etc/hosts
 
 ### Apply Proportional Control
 First go through the toolbox [document](https://www.mathworks.com/help/robotics/index.html) and get familiar with how to use rospublisher/rossubscriber, how to create message, etc. <br>
-I post the matlab code in the same folder, it includes all details of how to apply proportional control to the gazebo simulation environment.
+I post the matlab code(ardrone_Proportional.m) in the same folder, it includes all details of how to apply proportional control to the gazebo simulation environment.
