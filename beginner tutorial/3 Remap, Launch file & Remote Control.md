@@ -23,10 +23,11 @@ The xml grammer looks like the following.
 
 </launch>
 ```
-#### Remote Control a Turtlebot
+### Remote Control a Turtlebot
 This is a more complicated example of how to use remap to achive the goal: let a simulated turtle move randomly, and let a real turtlebot mimic the action of the virtue turtel.<br>
 Node publish_velocity publishes random velocity to topic "turtlesim1/turtle1/cmd". <br>
-Node 
+Node sim run a turtlesim. <br>
+Topic "/mobile_base_nodelet_manager" receive velocity messages.
 ```bash
 <launch>
 
@@ -41,7 +42,6 @@ Node
   
   <node pkg="turtlesim" name="mimic" type="mimic">
      <remap from="input" to="turtlesim1/turtle1"/> 
-     
      <remap from="output" to="/mobile_base_nodelet_manager"/>
   </node> 
 </launch>
