@@ -1,4 +1,4 @@
-## Introduction
+### Introduction
 MATLAB is a handy tool to do calculation, therefore it is convenient to write scripts on MATLAB and use MATLAB toolbox to apply our algorithms to ROS. This document shows how to install Robotics System Toolbox, setup, and apply proportional control.
 
 ### Install Robotics System Toolbox
