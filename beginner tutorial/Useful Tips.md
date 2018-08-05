@@ -1,4 +1,4 @@
-#### Run "source devel/setup.bash" automatically<br>
+### Run "source devel/setup.bash" automatically<br>
 Sometimes it is annoying to source "setup.bash" at every new shell, here is how can this be automatically.
 1. Open your terminal
 2. Write the command 'gedit ~/.bashrc' a file will open on gedit
@@ -11,10 +11,10 @@ Example:<br>
 Add 'source ~/catkin_ws/devel/setup.bash'<br>
 Workspace catkin_ws is no longer need to be sourced
 
-#### Change node name
+### Change node name
 rosrun package-name executable-name __name:=node-name
 
-#### Launch file tips
+### Launch file tips
 1. You can put launch files anywhere in the package folder(ex. package/src/launchfile  package/src/launch/launchfile). 'roslaunch' command
 can find the launchfile.
 2. You do not need to run catkin_make after you create a luanchfile, while you have to run catkin_make after you create a .cpp file or .py
