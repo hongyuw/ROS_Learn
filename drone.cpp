@@ -1,4 +1,4 @@
-// This program publishes randomly generated velocity messages for turtlesim.
+// This program publishes randomly generated velocity messages for tum_simulator.
 
 #include<ros/ros.h>
 #include<geometry_msgs/Twist.h>  //For geometry_msgs::Twist
