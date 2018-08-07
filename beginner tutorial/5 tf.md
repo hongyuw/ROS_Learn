@@ -1,6 +1,6 @@
-rosrun tf tf_echo /world /turtle1   <br>
-This should show you the pose of the first turtle. <br>
-tf_echo   parent_frame  child_frame
+## TF
+[Tutorial link](http://wiki.ros.org/tf/Tutorials)
+
 ### set origin, the coordinates are in parent_frame, the origin is the child_frame's origin
 ```bash
  transform.setOrigin( tf::Vector3(x, y, z) ); 
